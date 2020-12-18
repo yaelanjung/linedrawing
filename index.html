@@ -264,10 +264,10 @@ function randomize(i, j) {
 <style type="text/css">.wrapper {
 
 font-family: arial;
-
 height: 80%;
 width: 100%;
 display: table;
+text-align: center;
 
 }
 
@@ -281,20 +281,21 @@ align: middle;
 .cell {
 
 margin: 50px;
-padding: 10px;}
+padding: 5px;}
 
 input {
-            width: 80px;
-            margin-right: 200px;
-            float:right;
+            width: 200px;
+			font-weight: bold;
+            float:center;
+			padding: 5px;
+			border-radius: 8px;
+			box-sizing: border-box;
             
         }
-
 
 #pagenum {
 
 text­align: center;
-
 font­style: italic;
 
 }
@@ -304,7 +305,10 @@ font­style: italic;
 font­weight: bold;
 
 color: #555555;
+}
 
+.a {
+	text-align: left;
 }
 
 .warning {
@@ -335,35 +339,32 @@ user­select: none;
 <div align="center">
 <h1>Welcome to our study!</h1>
 </div>
-<p style="margin-left:20em; font-size: 14pt;">
+<p style="font-size: 14pt;">
 <br><br>
- In this study, your child will play a fun game about drawings! <br>
-<br> First, please read the consent form on the next page carefully,
-<br> and click the "consent" button at the bottom if you'd like to provide your consent.
-<br> If you don't consent, please exit out of the window and inform the researchers.
+ <a>In this study, your child will play a fun game about drawings! <br></a>
+<a><br> First, please read the consent form on the next page carefully,
+<br> and click the "consent" button at the bottom if you'd like to provide your consent.</a>
+<br> If you don't consent, please exit out of the window and inform the researchers.</a>
 
 <br> <br> Then, read aloud the script on the next page to ask if your child wants to do the study.
 <br> If they don't, please exit out of the window and inform the researchers.
-<br><br>
-This study should take <strong>less than 15 minutes.</strong> 
-<br> <br> You DO NOT have to finish the entire study. You can quit anytime during the study. <br>
-
-<br> <br> This study runs on Inquisit Player, and the link on the following page will let you download the program. <br><br>
+<br><br>This study should take <strong>less than 15 minutes.</strong> 
 
 <br> Once the study starts, you and your child will be audio-recorded to observe your child's behavior during the study. <br>
 Please note that we will discard the audio file shortly after your participation. 
-<br><br> Please press 'CONTINUE' to move forward.</div>
+<br><br> Please press 'CONTINUE' to move forward.
 <br> </p>
 
 <input onclick="next();" type="button" value="Continue" /></div>
 </div>
+
 
 <div class="page" id="2" style="display: none;">
 <div class="cell">
     <h1 align="center"><strong> PARENT PERMISSION </strong></h1>
     <h2 style="text-align:center;color:orange"> Princeton University, Department of Psychology</h2>
     
-    <body style="text-align: left; font:arial">
+    <body style="text-align: left; margin:10em:arial">
             <p> TITLE OF RESEARCH: The Role of Statistical Information in Perception, Learning and
             Development </p>
             <p>&nbsp;</p>
