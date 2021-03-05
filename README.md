@@ -1,2 +1,2 @@
-# linedrawingkids_angularity
+# linedrawing study
 repository for online consent form and study url
